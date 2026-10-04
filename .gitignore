@@ -1,0 +1,7 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+run_log*.txt
+nohup.out
+"@ | Out-File -Encoding utf8 .gitignore
